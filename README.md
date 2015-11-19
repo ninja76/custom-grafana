@@ -1,6 +1,6 @@
 ###Grafana dashboard scripts
 
-These are just a couple of Grafana scripts that I used to provide some links in from Sensu and Uchiwa. I was inspired by a post on this site: http://anatolijd.blogspot.com/
+These are just a couple of Grafana scripts that I used to provide some links in from Sensu and Uchiwa. I was inspired by a post on this site: http://anatolijd.blogspot.com/ and I took his scripts and hacked together a few more dashboard options
 
 
 ### instance.js
