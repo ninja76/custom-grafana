@@ -1,18 +1,6 @@
 /* global _ */
 /*
- * Complex scripted dashboard
- * This script generates a dashboard object that Grafana can load. It also takes a number of user
- * supplied URL parameters (int ARGS variable)
- *
- * Global accessable variables
- * window, document, $, jQuery, ARGS, moment
- *
- * Return a dashboard object, or a function
- *
- * For async scripts, return a function, this function must take a single callback function,
- * call this function with the dasboard object
- *
- * Author: Anatoliy Dobrosynets, Recorded Future, Inc.
+ * based on scripts by Anatoliy Dobrosynets, Recorded Future, Inc.
  */
 
 // accessable variables in this scope
