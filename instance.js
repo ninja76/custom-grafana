@@ -607,13 +607,13 @@ return function(callback) {
 	dashboard.rows.push(row_rabbitmq_stats('rabbitmq stats',prefix));
     }
 
-    if (arg_i.indexOf("stage-ecs-") > -1) {
+    if (arg_i.indexOf("docker-") > -1) {
         dashboard.rows.push(
                         row_docker_stats('docker stats',prefix)
         );
     };
 
-    if (arg_i.indexOf("-Router-") > -1 ){
+    if (arg_i.indexOf("nginx") > -1 ){
 	dashboard.rows.push(
 			row_nginx_stats('nginx stats',prefix)
 	);
