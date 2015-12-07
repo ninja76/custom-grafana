@@ -23,9 +23,6 @@ var arg_env  = '';
 var arg_i    = 'master';
 var arg_span = 4;
 var arg_from = '4h';
-var arg_nginx = 'no';
-var arg_docker = 'no';
-var arg_rabbitmq = 'no';
 
   if(!_.isUndefined(ARGS.span)) {
     arg_span = ARGS.span;
